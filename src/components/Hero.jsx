@@ -11,7 +11,7 @@ const Hero = () => {
         <div className="hero-content">
           <div className="hero-text">
             <h1 className="hero-title">
-              <span className="gradient-text">NUST</span> SUMMER SCHOOL
+              <span className="gradient-text">N</span> SCHOOL
             </h1>
             <p className="hero-subtitle">
               Transform your academic journey with innovative learning models and cutting-edge education
