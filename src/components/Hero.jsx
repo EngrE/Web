@@ -19,7 +19,7 @@ const Hero = () => {
             <p className="hero-description">
               Experience the future of education through our revolutionary flipped classroom approach, 
               where active learning, critical thinking, and collaboration take center stage. 
-              Prepare to step into university as a leader, not just a learner.
+              Prepare to step into university as a leader, not just a learner...
             </p>
             <div className="hero-buttons">
               <button className="btn-primary hero-cta">
