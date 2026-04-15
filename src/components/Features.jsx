@@ -68,7 +68,7 @@ const Features = () => {
       <div className="container">
         <div className="features-header text-center">
           <h2 className="features-title">
-            What Makes Our Program <span className="gradient-text">Transformative</span>
+            What we offer at  <span className="gradient-text">PTSD-tauma.help</span>
           </h2>
           <p className="features-subtitle">
             Discover the innovative learning models that set NUST Summer School apart from traditional education
