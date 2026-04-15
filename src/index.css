@@ -21,10 +21,10 @@
 
   */
 
-  --primary-green: #0f766e;     /* darker base (for headers/nav) */
-  --secondary-green: #14b8a6;   /* main brand color (close to #15BEA0) */
-  --light-green: #ccfbf1;       /* backgrounds, highlights */
-  --accent-green: #0d9488;      /* buttons, hover states */
+  --primary-blue: #0f766e;     /* darker base (for headers/nav) */
+  --secondary-blue: #14b8a6;   /* main brand color (close to #15BEA0) */
+  --light-blue: #ccfbf1;       /* backgrounds, highlights */
+  --accent-blue: #0d9488;      /* buttons, hover states */
   --white: #ffffff;
   --gray-50: #f9fafb;
   --gray-100: #f3f4f6;
