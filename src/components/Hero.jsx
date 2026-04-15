@@ -14,7 +14,7 @@ const Hero = () => {
               <span className="gradient-text">Congratulations</span> SANDRA :D
             </h1>
             <p className="hero-subtitle">
-              Trans your academic journey with innovative learning models and cutting-edge education
+              Sandra Trans your academic journey with innovative learning models and cutting-edge education
             </p>
             <p className="hero-description">
               Experience the future of education through our revolutionary flipped classroom approach, 
