@@ -11,7 +11,7 @@ const Features = () => {
         </svg>
       ),
       title: "Unique therapeutic trauma programs",
-      description: "Students engage in active discussions, problem-solving, and collaboration rather than passive listening, creating a dynamic learning environment."
+      description: "No or hardly any stressful client’s abreactions.Clients’ safety is the first priority with hihgly trained & experienced team. See improvement already in 3-5 sessions."
     },
     {
       icon: (
