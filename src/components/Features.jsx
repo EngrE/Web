@@ -10,7 +10,7 @@ const Features = () => {
           <path d="M2 12l10 5 10-5"/>
         </svg>
       ),
-      title: "Flipped Classroom Model",
+      title: "Unique therapeutic trauma programs",
       description: "Students engage in active discussions, problem-solving, and collaboration rather than passive listening, creating a dynamic learning environment."
     },
     {
@@ -19,7 +19,7 @@ const Features = () => {
           <path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
         </svg>
       ),
-      title: "Critical Thinking Development",
+      title: "Gentle & efficient hypnosis sessions",
       description: "Our active approach sharpens critical thinking skills, building adaptability and empowering students to become leaders in their academic journey."
     },
     {
@@ -30,7 +30,7 @@ const Features = () => {
           <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/>
         </svg>
       ),
-      title: "Collaborative Learning",
+      title: "Network building & finding friends",
       description: "Foster teamwork and communication skills through peer-to-peer learning and group problem-solving activities."
     },
     {
@@ -39,7 +39,7 @@ const Features = () => {
           <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
         </svg>
       ),
-      title: "Leadership Preparation",
+      title: "Activities: regular webinars & group meetings",
       description: "Transform from learners to leaders with our comprehensive approach that builds confidence and leadership capabilities."
     },
     {
@@ -49,7 +49,7 @@ const Features = () => {
           <path d="M12 6v6l4 2"/>
         </svg>
       ),
-      title: "Adaptive Learning",
+      title: "Practical tips & tools for self-help",
       description: "Build adaptability and resilience through innovative learning models that prepare students for real-world challenges."
     },
     {
@@ -58,7 +58,7 @@ const Features = () => {
           <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
         </svg>
       ),
-      title: "Transformative Experience",
+      title: "Training in self hypnosis & coping strategies",
       description: "Experience a complete transformation in your learning approach, making education engaging, effective, and empowering."
     }
   ];
