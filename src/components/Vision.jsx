@@ -193,7 +193,8 @@ const Vision = () => {
                 Our <span className="gradient-text">Vision</span>
               </h2>
               <p className="vision-subtitle">
-                We have traveled this much, as world will see more bright minds, the vision is the work our way forward to a "Universal", "Lasting", and "Enrapturing" future.
+                
+Our mission: Easy and accessible global help for human beings dealing with trauma & PTSD is our first priority.
               </p>
             </div>
 
