@@ -14,8 +14,8 @@ const Vision = () => {
           <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/>
         </svg>
       ),
-      title: "Universal Access",
-      description: "NUST's commitment to universal access ensures every student receives early academic and personal development opportunities."
+      title: "Our mission",
+      description: "easy and accessible global help for human beings dealing with trauma & PTSD is our first priority"
     },
     {
       icon: (
@@ -25,8 +25,8 @@ const Vision = () => {
           <path d="M2 12l10 5 10-5"/>
         </svg>
       ),
-      title: "Seamless Pre-University Experience",
-      description: "Students will access recorded sessions on NUST LMS even before arriving on campus—creating a seamless pre-university experience."
+      title: "Learn more:",
+      description: "New ways in dealing with trauma & PTSD through supraliminal hypnosis"
     },
     {
       icon: (
@@ -34,8 +34,8 @@ const Vision = () => {
           <path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
         </svg>
       ),
-      title: "AI-Assisted Learning",
-      description: "AI-assisted tools will identify students best suited for live sessions, maximizing impact and avoiding counterproductive inclusion."
+      title: "PTSD & trauma recovery:",
+      description: "Find your optimal personally tailored program!"
     },
     {
       icon: (
@@ -45,8 +45,8 @@ const Vision = () => {
           <path d="M12 6v6l4 2"/>
         </svg>
       ),
-      title: "National Blueprint",
-      description: "This program has the potential to be the national blueprint for higher academic ecosystem transformation and enhancement in Pakistan."
+      title: "Our services",
+      description: "From single sessions, group sessions, community activities to webinars and your personal toolbox. Check it out!"
     },
     {
       icon: (
@@ -54,8 +54,8 @@ const Vision = () => {
           <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
         </svg>
       ),
-      title: "Research & Innovation Feeder",
-      description: "As NUST expands its footprint in research and innovation, the Summer School will serve as a feeder for purpose-driven academic journeys."
+      title: "Our Activities",
+      description: "Learn more about our intensive therapy & training camp, our self hypnosis training, practical tools and community activities."
     },
     {
       icon: (
@@ -64,8 +64,8 @@ const Vision = () => {
           <path d="M8 12l2 2 4-4"/>
         </svg>
       ),
-      title: "Year-Round Hub",
-      description: "Backed by institutional commitment, the program is set to become a year-round hub for mentoring, outreach, and developmental activities."
+      title: "Highly qualified expert team",
+      description: "Our team consists of leading hypno therapists and mind trainers with extensive additional training."
     },
     {
       icon: (
@@ -75,8 +75,8 @@ const Vision = () => {
           <line x1="12" y1="22.08" x2="12" y2="12"/>
         </svg>
       ),
-      title: "Metaverse Campus 2026",
-      description: "By 2026, NUST plans to launch a metaverse campus—potentially in collaboration with Siemens—to host interactive learning environments."
+      title: "What you get",
+      description: "A unique technique, with a highly empathic and experienced team, enabling profound and lasting transformations where this did not seem possible anymore."
     }
   ];
 

@@ -74,7 +74,7 @@ Experience our unique therapeutic approach & community. Get the best out of it!
               <p>Learning Tools</p>
             </div>
             <div className="stat-item">
-              <h3>National</h3>
+              <h3>International</h3>
               <p>Blueprint Program</p>
             </div>
           </div>
