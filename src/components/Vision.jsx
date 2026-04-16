@@ -15,7 +15,7 @@ const Vision = () => {
         </svg>
       ),
       title: "Our mission",
-      description: "easy and accessible global help for human beings dealing with trauma & PTSD is our first priority"
+      description: "Easy and accessible global help for human beings dealing with trauma & PTSD is our first priority"
     },
     {
       icon: (
