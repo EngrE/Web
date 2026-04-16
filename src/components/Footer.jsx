@@ -14,10 +14,10 @@ const Footer = () => {
         <div className="footer-content">
           <div className="footer-main">
             <div className="footer-brand">
-              <h3 className="footer-logo gradient-text">NUST</h3>
+              <h3 className="footer-logo gradient-text">ptsd-trauma.help</h3>
               <p className="footer-description">
-                Transforming education through innovative learning models and cutting-edge technology. 
-                Join us in shaping the future of academic excellence.
+                Transforming the (C-)PTSD & trauma work through innovative hypnosis models and a unique approach. 
+                Join us in re-shaping your future. Live again.
               </p>
               <div className="footer-social">
                 <a href="#" className="social-link" aria-label="Facebook">
