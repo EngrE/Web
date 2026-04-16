@@ -17,7 +17,7 @@ const Hero = () => {
               unique trauma release. efficient. gentle. safe.
             </p>
             <p className="hero-description">
-               (C-)PTSD & trauma recovery program with no need to talk. A gentle way back into life. Online sessions & global network. New ways in hypnosis – no re-traumatization possible.
+               (C-)PTSD & trauma recovery program with no need to talk. A gentle way back into life. Online sessions & global network. New ways in hypnosis – no re-traumatization.
 Experience our unique therapeutic approach & community. Get the best out of it! 
             </p>
             <div className="hero-buttons">
