@@ -10,7 +10,7 @@ const Features = () => {
           <path d="M2 12l10 5 10-5"/>
         </svg>
       ),
-      title: "Unique therapeutic trauma programs = testing",
+      title: "Unique therapeutic trauma programs",
       description: "No or hardly any stressful client’s abreactions.Clients’ safety is the first priority with hihgly trained & experienced team. See improvement already in 3-5 sessions."
     },
     {
