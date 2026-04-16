@@ -11,7 +11,7 @@ const Hero = () => {
         <div className="hero-content">
           <div className="hero-text">
             <h1 className="hero-title">
-              <span className="gradient-text">SANDRA ptsd-trauma.help</span> SANDRA :D
+              <span className="gradient-text">SAN ptsd-trauma.help</span> SANDRA :D
             </h1>
             <p className="hero-subtitle">
               unique trauma release. efficient. gentle. safe.
