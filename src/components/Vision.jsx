@@ -14,8 +14,8 @@ const Vision = () => {
           <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/>
         </svg>
       ),
-      title: "Find you optimal program!",
-      description: "Deep and thorough changes – on all levels of consicous and non consious mind on the physical, mental, emotional, spiritual, epigenetic level and other realms."
+      title: "Deep and thorough changes",
+      description: " On all levels of consicous and non consious mind on the physical, mental, emotional, spiritual, epigenetic level and other realms."
     },
     {
       icon: (
