@@ -17,9 +17,8 @@ const Hero = () => {
               unique trauma release. efficient. gentle. safe.
             </p>
             <p className="hero-description">
-              Experience the future of education through our revolutionary flipped classroom approach, 
-              where active learning, critical thinking, and collaboration take center stage. 
-              Prepare to step into university as a leader, not just a learner...
+               (C-)PTSD & trauma recovery program with no need to talk. A gentle way back into life. Online sessions & global network. New ways in hypnosis – no re-traumatization possible.
+Experience our unique therapeutic approach & community. Get the best out of it! 
             </p>
             <div className="hero-buttons">
               <button className="btn-primary hero-cta">
