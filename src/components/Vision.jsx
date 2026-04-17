@@ -15,7 +15,7 @@ const Vision = () => {
         </svg>
       ),
       title: "Deep and thorough changes",
-      description: " On all levels of consicous and non consious mind on the physical, mental, emotional, spiritual, epigenetic level and other realms."
+      description: " On all levels of consicous and non consious mind. On a physical, mental, emotional, spiritual, epigenetic and cellular level."
     },
     {
       icon: (
@@ -26,7 +26,7 @@ const Vision = () => {
         </svg>
       ),
       title: "Learn more",
-      description: "New ways in dealing with trauma & PTSD through supraliminal hypnosis"
+      description: "New ways in dealing with trauma & PTSD through supraliminal hypnosis - how does it work?"
     },
     {
       icon: (
