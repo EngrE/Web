@@ -1,4 +1,6 @@
 import './Hero.css';
+import heroImage from '../assets/images/pexels-pixabay-349758-scaled.jpg';
+
 
 const Hero = () => {
   return (
@@ -36,18 +38,13 @@ Experience our unique therapeutic approach & community. Get the best out of it!
           <div className="hero-image">
             <div className="hero-image-container">
               <div className="hero-image-placeholder">
-                <div className="image-content">
-                  <div className="university-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                      <path d="M12 2L2 7l10 5 10-5-10-5z"/>
-                      <path d="M2 17l10 5 10-5"/>
-                      <path d="M2 12l10 5 10-5"/>
-                    </svg>
-                  </div>
-                  <h3>Summer School Program</h3>
-                  <p>Innovative Learning Experience</p>
-                </div>
+                <img
+                  src={heroImage}
+                  alt="Hero"
+                  className="hero-img"
+                />
               </div>
+
               <div className="floating-elements">
                 <div className="floating-element element-1"></div>
                 <div className="floating-element element-2"></div>
