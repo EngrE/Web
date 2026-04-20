@@ -1,62 +1,48 @@
 import './Features.css';
+import { Heart, CircleCheck,Smile,MonitorSmartphone, PencilRuler ,Brain } from 'lucide-react';
 
 const Features = () => {
   const features = [
     {
       icon: (
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-          <path d="M12 2L2 7l10 5 10-5-10-5z"/>
-          <path d="M2 17l10 5 10-5"/>
-          <path d="M2 12l10 5 10-5"/>
-        </svg>
-      ),
+              <Heart />
+      )
+      ,
       title: "Unique therapeutic trauma programs",
-      description: "No or hardly any stressful client’s abreactions.Clients’ safety is the first priority with hihgly trained & experienced team. See improvement already in 3-5 sessions."
+      description: "Nocat package.json or hardly any stressful client’s abreactions.Clients’ safety is the first priority with hihgly trained & experienced team. See improvement already in 3-5 sessions."
     },
     {
       icon: (
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-          <path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
-        </svg>
+                <CircleCheck />
       ),
       title: "Gentle & efficient hypnosis sessions",
       description: "Our active approach sharpens critical thinking skills, building adaptability and empowering students to become leaders in their academic journey."
     },
     {
       icon: (
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-          <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/>
-          <circle cx="9" cy="7" r="4"/>
-          <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/>
-        </svg>
+         <Smile/>
       ),
       title: "Network building & finding friends",
       description: "Foster teamwork and communication skills through peer-to-peer learning and group problem-solving activities."
     },
     {
       icon: (
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-          <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
-        </svg>
+
+         <MonitorSmartphone />
       ),
       title: "Activities: regular webinars & group meetings",
       description: "Transform from learners to leaders with our comprehensive approach that builds confidence and leadership capabilities."
     },
     {
       icon: (
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-          <path d="M12 2a10 10 0 100 20 10 10 0 000-20z"/>
-          <path d="M12 6v6l4 2"/>
-        </svg>
+       <PencilRuler/>
       ),
       title: "Practical tips & tools for self-help",
       description: "Build adaptability and resilience through innovative learning models that prepare students for real-world challenges."
     },
     {
       icon: (
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-          <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
-        </svg>
+      <Brain/>
       ),
       title: "Training in self hypnosis & coping strategies",
       description: "Experience a complete transformation in your learning approach, making education engaging, effective, and empowering."
