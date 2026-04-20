@@ -12,7 +12,7 @@ const CallToAction = () => {
         <div className="cta-content">
           <div className="cta-text">
             <h2 className="cta-title">
-              Ready to Transform Your <span className="cta-gradient-text">Academic Journey?</span>
+              Make your <span className="cta-gradient-text">appointment today!</span>
             </h2>
             <p className="cta-description">
               Join thousands of students who are already experiencing the future of education. 
@@ -27,7 +27,7 @@ const CallToAction = () => {
                     <path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/>
                   </svg>
                 </div>
-                <span>100% Inclusive Program</span>
+                <span>16 different trauma programs</span>
               </div>
               <div className="cta-feature">
                 <div className="cta-feature-icon">
@@ -35,7 +35,7 @@ const CallToAction = () => {
                     <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
                   </svg>
                 </div>
-                <span>AI-Powered Learning</span>
+                <span>Global sessions (online & in person)</span>
               </div>
               <div className="cta-feature">
                 <div className="cta-feature-icon">
@@ -45,7 +45,7 @@ const CallToAction = () => {
                     <path d="M2 12l10 5 10-5"/>
                   </svg>
                 </div>
-                <span>Future-Ready Education</span>
+                <span>International activities</span>
               </div>
             </div>
           </div>
@@ -73,7 +73,7 @@ const CallToAction = () => {
                 <p>Metaverse Launch</p>
               </div>
               <div className="cta-stat">
-                <h3>National</h3>
+                <h3>International</h3>
                 <p>Blueprint Program</p>
               </div>
             </div>
