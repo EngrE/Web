@@ -13,7 +13,7 @@ const Hero = () => {
         <div className="hero-content">
           <div className="hero-text">
             <h1 className="hero-title">
-              <span className="gradient-text">Congratulations</span> SANDRA :D
+              <span className="gradient-text">Congratulationss</span> SANDRA :D
             </h1>
             <p className="hero-subtitle">
               Sandra Trans your academic journey with innovative learning models and cutting-edge education
