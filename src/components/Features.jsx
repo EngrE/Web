@@ -16,12 +16,9 @@ const Features = ({
           <h2 className="features-title">
             {title} <span className="gradient-text">{gradientTitle}</span>
           </h2>
-
-          {subtitle && (
-            <p className="features-subtitle">
-              {subtitle}
-            </p>
-          )}
+          <p className="features-subtitle">
+            (C-)PTSD & trauma recovery program with no need to talk. A gentle way back into life.
+          </p>
         </div>
 
         <div className="features-grid">
@@ -48,30 +45,29 @@ const Features = ({
           ))}
         </div>
 
-        {(ctaText || buttonText) && (
-          <div className="features-cta text-center">
-            {ctaText && (
-              <p className="features-cta-text">
-                {ctaText}
-              </p>
-            )}
-
-            {buttonText && (
-              <button className="btn-primary features-button">
-                {buttonText}
-                <svg
-                  className="button-icon"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                >
-                  <path d="M5 12h14M12 5l7 7-7 7" />
-                </svg>
-              </button>
-            )}
-          </div>
-        )}
+        <div className="features-cta text-center">
+          <p className="features-cta-text">
+            PTSD & trauma: how to deal with it
+          </p>
+          <button className="btn-primary features-button">
+            Understand yourself
+            <svg className="button-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </button>
+          <button className="btn-primary features-button">
+             Choose a new unique approach
+            <svg className="button-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </button>
+          <button className="btn-primary features-button">
+            Join our services
+            <svg className="button-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </button>
+        </div>
       </div>
     </section>
   );
