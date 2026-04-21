@@ -16,7 +16,7 @@ const Footer = () => {
             <div className="footer-brand">
               <h3 className="footer-logo gradient-text">ptsd-trauma.help</h3>
               <p className="footer-description">
-                Transforming the (C-)PTSD & trauma work through innovative hypnosis models and a unique approach. 
+                Transforming the PTSD & trauma work through innovative hypnosis models and a unique approach. 
                 Join us in re-shaping your future. Live again.
               </p>
               <div className="footer-social">
@@ -92,7 +92,7 @@ const Footer = () => {
                       }}
                       className="footer-link"
                     >
-                      Apply Now
+                      Book Now
                     </a>
                   </li>
                 </ul>
@@ -101,7 +101,7 @@ const Footer = () => {
               <div className="footer-column">
                 <h4 className="footer-column-title">Program</h4>
                 <ul className="footer-list">
-                  <li><a href="#" className="footer-link">About Summer School</a></li>
+                  <li><a href="#" className="footer-link">About ptsd-trauma.help</a></li>
                   <li><a href="#" className="footer-link">Admission Process</a></li>
                   <li><a href="#" className="footer-link">Curriculum</a></li>
                   <li><a href="#" className="footer-link">Faculty</a></li>
@@ -123,7 +123,7 @@ const Footer = () => {
           <div className="footer-bottom">
             <div className="footer-bottom-content">
               <p className="footer-copyright">
-                © 2024 NUST Summer School. All rights reserved.
+                © 2026 ptsd-trauma.help. All rights reserved.
               </p>
               <div className="footer-legal">
                 <a href="#" className="footer-legal-link">Privacy Policy</a>

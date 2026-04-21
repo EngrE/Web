@@ -188,6 +188,7 @@
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
   animation: float 6s ease-in-out infinite;
+  color: #14b8a6;
 }
 
 .element-1 {
@@ -389,4 +390,37 @@
   aspect-ratio: 1 / 1;
   overflow: hidden;
   border-radius: 16px;
+}
+
+
+/*================Addional CSS====================*/
+.hero-image-placeholder {
+  position: relative;
+  overflow: hidden;
+}
+
+
+.carousel-dots {
+  position: absolute;
+  left: 50%;
+  bottom: 18px;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  z-index: 3;
+}
+
+.carousel-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: none;
+  padding: 0;
+  margin: 0;
+  background: rgba(255, 255, 255, 0.45);
+  cursor: pointer;
+}
+
+.carousel-dot.active {
+  background: white;
 }
