@@ -18,7 +18,7 @@ const Features = ({
           </h2>
           <p className="features-subtitle">
             (C-)PTSD & trauma recovery program with no need to talk. A gentle way back into life.
-          </p>
+          </p>A unique approach to healing.
         </div>
 
         <div className="features-grid">
