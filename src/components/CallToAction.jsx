@@ -1,5 +1,8 @@
 import { Link } from 'react-router-dom';
 import './CallToAction.css';
+import { Phone, ClipboardClock,Scale } from 'lucide-react';
+
+
 
 const CallToAction = () => {
   return (
@@ -12,40 +15,31 @@ const CallToAction = () => {
         <div className="cta-content">
           <div className="cta-text">
             <h2 className="cta-title">
-              Make your <span className="cta-gradient-text">appointment today!</span>
+              Make an <span className="cta-gradient-text">appointment today!</span>
             </h2>
             <p className="cta-description">
-              Join thousands of students who are already experiencing the future of education. 
-              Don't just be a learner—become a leader. Your transformative journey starts here.
+              Our expert network provides unique high-level hypnosis services, efficient high-level interventions, 
+              and offers comprehensive solutions for the gentle release of your trauma experiences.
             </p>
             
             <div className="cta-features">
               <div className="cta-feature">
                 <div className="cta-feature-icon">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path d="M9 12l2 2 4-4"/>
-                    <path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/>
-                  </svg>
+                  <ClipboardClock/>
                 </div>
-                <span>16 different trauma programs</span>
+                <span>Book an online session</span>
               </div>
               <div className="cta-feature">
                 <div className="cta-feature-icon">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
-                  </svg>
+                 <Phone/>
                 </div>
-                <span>Global sessions (online & in person)</span>
+                <span>Free pre-talk (20 min.)</span>
               </div>
               <div className="cta-feature">
                 <div className="cta-feature-icon">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path d="M12 2L2 7l10 5 10-5-10-5z"/>
-                    <path d="M2 17l10 5 10-5"/>
-                    <path d="M2 12l10 5 10-5"/>
-                  </svg>
+                 <Scale/>
                 </div>
-                <span>International activities</span>
+                <span>Therapeutic code of ethics</span>
               </div>
             </div>
           </div>
@@ -53,7 +47,7 @@ const CallToAction = () => {
           <div className="cta-actions">
             <div className="cta-buttons">
               <Link to="/apply" className="btn-primary cta-primary">
-                Apply Now
+                Book Now
                 <svg className="button-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <path d="M5 12h14M12 5l7 7-7 7"/>
                 </svg>

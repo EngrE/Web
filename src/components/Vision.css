@@ -23,7 +23,7 @@
 
 .vision-content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
   gap: 4rem;
   align-items: start;
 }
@@ -308,6 +308,7 @@
 }
 
 .carousel-dot {
+  all: unset;
   width: 8px;
   height: 8px;
   border-radius: 50%;

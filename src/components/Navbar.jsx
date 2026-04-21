@@ -140,7 +140,7 @@ const Navbar = () => {
             </div>
 
             <Link to="/auth" className="btn-primary nav-cta">
-              Apply Now
+              Book Now
             </Link>
           </div>
 
@@ -283,7 +283,7 @@ const Navbar = () => {
           </div>
 
           <Link to="/auth" className="btn-primary mobile-cta" onClick={closeMobileMenu}>
-            Apply Now
+            Book Now
           </Link>
         </div>
       </div>

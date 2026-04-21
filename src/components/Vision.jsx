@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 import './Vision.css';
+import { Heart, HeartHandshake,LockOpen,ToolCase, BookOpenCheck } from 'lucide-react';
+
 
 const Vision = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -82,70 +84,51 @@ const Vision = () => {
 
   const educationalImages = [
     {
-      id: 1,
-      title: "Modern Classroom",
-      description: "Interactive Learning Environment",
+      id: 1,  
+      title: "Gentle release & recovery from trauma symptoms",
+      description: "Finding your way back to life as gently, fast, and efficiently as possible. No re-traumatization, stress-free – from anywhere in the world.",
       icon: (
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-          <path d="M12 2L2 7l10 5 10-5-10-5z"/>
-          <path d="M2 17l10 5 10-5"/>
-          <path d="M2 12l10 5 10-5"/>
-        </svg>
+        <Heart/>
       ),
       gradient: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)"
     },
     {
       id: 2,
-      title: "Digital Learning",
-      description: "Technology-Enhanced Education",
+      title: " Emotional & mental resilience",
+      description: "Building up peacefulness, inner balance & joy instead of mood swings and inner chaos.",
       icon: (
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-          <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
-          <line x1="8" y1="21" x2="16" y2="21"/>
-          <line x1="12" y1="17" x2="12" y2="21"/>
-        </svg>
+          <HeartHandshake/>
       ),
       gradient: "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)"
     },
     {
-      id: 3,
-      title: "Research Lab",
-      description: "Innovation & Discovery",
+      id: 3,   
+ title: "Gentle release & recovery from trauma symptoms",
+      description: "Finding your way back to life as gentle, fast, and efficient as possible. No re-traumatization, stress-free – from anywhere in the world.",
       icon: (
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-          <path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
-        </svg>
+        <LockOpen/>
       ),
       gradient: "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)"
     },
     {
       id: 4,
-      title: "Collaboration",
-      description: "Team Learning & Growth",
+      title: "New tools & strategies for home",  
+      description: "Build your skills and use your coping strategies at home",
       icon: (
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-          <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/>
-          <circle cx="9" cy="7" r="4"/>
-          <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/>
-        </svg>
+        <ToolCase/>
       ),
       gradient: "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)"
     },
     {
       id: 5,
-      title: "Global Campus",
-      description: "International Education",
+      title: "Practical infos for you & your loved ones",
+      description: "Do’s and Don’ts dealing with PTSD & trauma in your everyday life",
       icon: (
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-          <circle cx="12" cy="12" r="10"/>
-          <path d="M8 14s1.5 2 4 2 4-2 4-2"/>
-          <line x1="9" y1="9" x2="9.01" y2="9"/>
-          <line x1="15" y1="9" x2="15.01" y2="9"/>
-        </svg>
+        <BookOpenCheck/>
       ),
       gradient: "linear-gradient(135deg, #fa709a 0%, #fee140 100%)"
     },
-    {
+    /*{
       id: 6,
       title: "Future Learning",
       description: "AI-Powered Education",
@@ -157,7 +140,7 @@ const Vision = () => {
         </svg>
       ),
       gradient: "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)"
-    }
+    }*/
   ];
 
   // Auto-slide functionality
@@ -194,7 +177,7 @@ const Vision = () => {
               </h2>
               <p className="vision-subtitle">
                 
-Our mission: Easy and accessible global help for human beings dealing with trauma & PTSD is our first priority.
+                Our mission: Easy and accessible global help for human beings dealing with trauma & PTSD is our first priority.
               </p>
             </div>
 
@@ -227,6 +210,10 @@ Our mission: Easy and accessible global help for human beings dealing with traum
           </div>
 
           <div className="vision-image">
+
+               <h2 className="vision-title">
+                As affected one: <span className="gradient-text"> are you looking for this?</span>
+              </h2>
             <div className="vision-carousel-container">
               <div 
                 className="vision-carousel"
