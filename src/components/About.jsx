@@ -134,10 +134,10 @@ const About = () => {
         <div className="testimonials-section">
           <div className="testimonials-header text-center">
             <h3 className="testimonials-title">
-              Words from Our <span className="gradient-text">Leaders</span>
+              Words from Our <span className="gradient-text">Experts</span>
             </h3>
             <p className="testimonials-subtitle">
-              Hear directly from the visionaries who are shaping the future of education
+              Hear directly from the visionaries who are shaping the future of hypnotic trauma release
             </p>
           </div>
 

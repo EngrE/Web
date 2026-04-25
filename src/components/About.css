@@ -114,6 +114,13 @@
   transform: scale(1.1);
 }
 
+.team-icon-img {
+  width: 120px;
+  height:120px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
 .image-overlay {
   position: absolute;
   top: 0;
@@ -177,6 +184,8 @@
   line-height: 1.6;
   margin-bottom: 1.5rem;
   font-size: 0.95rem;
+  white-space: pre-line;
+
 }
 
 .team-achievements {
@@ -541,3 +550,6 @@
     padding: 1.25rem;
   }
 }
+
+
+

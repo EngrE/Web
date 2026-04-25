@@ -83,7 +83,7 @@ const CallToAction = () => {
                 <div className="timeline-dot"></div>
               </div>
               <div className="timeline-content">
-                <p>Submit your application and join our transformative program</p>
+                <p>Understanding PTSD & Trauma</p>
               </div>
             </div>
             <div className="timeline-item">
