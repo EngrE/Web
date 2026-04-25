@@ -3,20 +3,53 @@ import './About.css';
 const About = () => {
   const teamMembers = [
     {
-      name: "Dr. Osman Hassan",
-      role: "Visionary Leader & Program Director",
-      description: "The driving force behind NUST Summer School's transformative vision, bringing together academic excellence with innovative learning models.",
+      name: "Mag. SANDRA SCHWAIGHOFER (Austria)",
+      role: "Interational mind trainer & hypno coach",
+      description:
+        "International certified SP practitioner (by Ines Simpson)\n" +
+        "Member of the SP Certified-plus Board\n" +
+        "Creator of mindVision®\n" +
+        "Co-founder of the mindVision hypnosis institute\n" +
+        "(Germany-Swiss-Austria)\n" +
+        "Creator of mindSync – supraliminal hypnosis\n" +
+        "Founder of PTSD-trauma.help (international)",
+      
+      /*
       icon: (
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
           <path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
         </svg>
+      ),*/
+      icon: (
+          <img
+            src="src\assets\images\sandra.jpeg"
+            alt="Sandra"
+            className="team-icon-img"
+          />
       ),
       achievements: ["Program Visionary", "Academic Excellence", "Innovation Leader"]
     },
     {
-      name: "Ms. Bibiana Ortner",
-      role: "International Partnership Director",
-      description: "Powering the program through strategic international collaborations and bringing global best practices to NUST Summer School.",
+      name: "HANNES TIEDENS (Switzerland)",
+      role: "Interational mind trainer & hypno therapist",
+      description: 
+      "Non-medical practitioner for psychotherapy\n" +
+      "SP practitioner\n" +
+      "Co-founder of mindVision®\n" +
+      "Co-founder of the mindVision hypnosis institute\n" +
+      "(Germany-Swiss-Austria)\n" +
+      "Co-founder of mindSync – supraliminal hypnosis\n" +
+      "Co-Founder of PTSD-trauma.help (international)\n\n",
+        
+      icon: (
+          <img
+            src="src\assets\images\hannes.jpg"
+            alt="Hannes Tiedens"
+            className="team-icon-img"
+          />
+      ),
+
+      /*
       icon: (
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
           <circle cx="12" cy="12" r="10"/>
@@ -24,57 +57,21 @@ const About = () => {
           <line x1="9" y1="9" x2="9.01" y2="9"/>
           <line x1="15" y1="9" x2="15.01" y2="9"/>
         </svg>
-      ),
+      ),*/
       achievements: ["Global Partnerships", "Strategic Development", "International Excellence"]
-    },
-    {
-      name: "Ms. Sandra Schwaighofer",
-      role: "Program Operations Director",
-      description: "Ensuring seamless program delivery and operational excellence, making the transformative experience accessible to all students.",
-      icon: (
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-          <path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/>
-          <polyline points="3.27,6.96 12,12.01 20.73,6.96"/>
-          <line x1="12" y1="22.08" x2="12" y2="12"/>
-        </svg>
-      ),
-      achievements: ["Operations Excellence", "Program Delivery", "Student Success"]
-    },
-    {
-      name: "Dr. Fiaz Hussain Shah",
-      role: "Philosophy & Leadership Mentor",
-      description: "Bringing depth to the program with sessions on 'Living a Meaningful Life', inspiring students to align education with purpose and humanity.",
-      icon: (
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-          <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/>
-          <circle cx="9" cy="7" r="4"/>
-          <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/>
-        </svg>
-      ),
-      achievements: ["Philosophical Guidance", "Leadership Development", "Purpose-Driven Education"]
     }
   ];
 
   const testimonials = [
     {
-      quote: "The NUST Summer School isn't just about academic preparation—it's about transforming potential into purpose. We're not just preparing students for university; we're nurturing the next generation of ethical leaders.",
-      author: "Dr. Osman Hassan",
-      role: "Program Director"
-    },
-    {
-      quote: "Through our international partnerships, we bring the best of global education to Pakistan, creating a truly transformative experience that prepares students for a connected world.",
-      author: "Ms. Bibiana Ortner",
-      role: "International Partnership Director"
-    },
-    {
-      quote: "Every student deserves the opportunity to thrive. Our program ensures that the transition from high school to university becomes a journey of growth, not anxiety.",
+      quote: "Every",
       author: "Ms. Sandra Schwaighofer",
-      role: "Program Operations Director"
+      role: "Interational mind trainer & hypno coach"
     },
     {
-      quote: "Education without purpose is incomplete. We help students discover not just what they want to do, but who they want to become—leaders with hearts and vision.",
-      author: "Dr. Fiaz Hussain Shah",
-      role: "Philosophy & Leadership Mentor"
+      quote: "“Life feels right, when everything feels light.",
+      author: "Hanner Tidens",
+      role: "Interational mind trainer & hypno therapist"
     }
   ];
 
@@ -84,10 +81,10 @@ const About = () => {
         {/* Header */}
         <div className="about-header text-center">
           <h2 className="about-title">
-            Meet Our <span className="gradient-text">Innovators</span>
+            Meet Our <span className="gradient-text">Therapists</span>
           </h2>
           <p className="about-subtitle">
-            The visionary leaders and dedicated professionals who are transforming education and shaping the future of learning
+            ------some text here -------------
           </p>
         </div>
 
@@ -101,7 +98,7 @@ const About = () => {
             >
               <div className="team-card-inner">
                 <div className="team-image-container">
-                  <div className="team-icon">
+                  <div className="team-icon-img">
                     {member.icon}
                   </div>
                   <div className="team-badge">
