@@ -16,8 +16,8 @@ const Footer = () => {
             <div className="footer-brand">
               <h3 className="footer-logo gradient-text">ptsd-trauma.help</h3>
               <p className="footer-description">
-                Transforming the PTSD & trauma work through innovative hypnosis models and a unique approach. 
-                Join us in re-shaping your future. Live again.
+                Transforming the (C-)PTSD & trauma work through innovative hypnosis models and a unique approach. 
+                Join us in re-shaping your future.
               </p>
               <div className="footer-social">
                 <a href="#" className="social-link" aria-label="Facebook">
