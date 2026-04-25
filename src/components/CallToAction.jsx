@@ -47,7 +47,7 @@ const CallToAction = () => {
           <div className="cta-actions">
             <div className="cta-buttons">
               <Link to="/apply" className="btn-primary cta-primary">
-                Book Now
+                Free pre-talk (20 min.)
                 <svg className="button-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <path d="M5 12h14M12 5l7 7-7 7"/>
                 </svg>
@@ -59,12 +59,12 @@ const CallToAction = () => {
             
             <div className="cta-stats">
               <div className="cta-stat">
-                <h3>100%</h3>
-                <p>Inclusion Rate</p>
+                <h3>93%</h3>
+                <p>Success Rate</p>
               </div>
               <div className="cta-stat">
-                <h3>2026</h3>
-                <p>Metaverse Launch</p>
+                <h3>23</h3>
+                <p>Countries Clients</p>
               </div>
               <div className="cta-stat">
                 <h3>International</h3>
@@ -73,40 +73,42 @@ const CallToAction = () => {
             </div>
           </div>
         </div>
-        
+
+
         <div className="cta-timeline">
           <h3 className="timeline-title">Your Journey Timeline</h3>
           <div className="timeline">
             <div className="timeline-item">
               <div className="timeline-header">
-                <h4 className="timeline-step-title">Application</h4>
+                <h4 className="timeline-step-title">Understanding PTSD & Trauma</h4>
                 <div className="timeline-dot"></div>
               </div>
               <div className="timeline-content">
-                <p>Understanding PTSD & Trauma</p>
+                <p>What is PTSD & trauma? Where does it come from? Who has is? symptoms? How can I recognize it?
+                </p>
               </div>
             </div>
             <div className="timeline-item">
               <div className="timeline-header">
-                <h4 className="timeline-step-title">Pre-University Access</h4>
+                <h4 className="timeline-step-title">Managing PTSD & Trauma</h4>
                 <div className="timeline-dot"></div>
               </div>
-              <div className="timeline-content">
-                <p>Access recorded sessions on NUST LMS before arriving on campus</p>
+              <div className="timeline-content"> 
+                <p>---------------------------------</p>
               </div>
             </div>
             <div className="timeline-item">
               <div className="timeline-header">
-                <h4 className="timeline-step-title">Summer School</h4>
+                <h4 className="timeline-step-title">Dealing with a mental crisis situation</h4>
                 <div className="timeline-dot"></div>
               </div>
               <div className="timeline-content">
-                <p>Experience innovative learning models and collaborative education</p>
+                <p>-----------------</p>
               </div>
             </div>
             <div className="timeline-item">
               <div className="timeline-header">
-                <h4 className="timeline-step-title">Leadership Ready</h4>
+                <h4 className="timeline-step-title">Overcoming PTSD & Trauma</h4>
                 <div className="timeline-dot"></div>
               </div>
               <div className="timeline-content">

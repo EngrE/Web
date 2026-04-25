@@ -110,6 +110,9 @@ const Navbar = () => {
                   <Link to="/ptsd-trauma/managing" className="dropdown-item">
                     Managing PTSD & Trauma
                   </Link>
+                  <Link to="/ptsd-trauma/dealing" className="dropdown-item">
+                    Dealing with a mental crisis situation
+                  </Link>
                   <Link to="/ptsd-trauma/overcoming" className="dropdown-item">
                     Overcoming PTSD & Trauma
                   </Link>
