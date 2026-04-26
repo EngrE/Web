@@ -22,9 +22,9 @@
 }
 
 .ptsd-singleColcontent {
-  display: grid;
+  /*display: grid;
   grid-template-columns: 2fr 1fr;
-  gap: 4rem;
+  gap: 4rem;*/
   align-items: start;
 }
 .ptsd-content {
