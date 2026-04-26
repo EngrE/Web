@@ -5,8 +5,10 @@ import { Anchor, Bubbles, Flag, Link,SignpostBig, Puzzle, UnfoldHorizontal, Badg
 function PtsdTraumaUnderstandingPage() {
   return (
     <main className="ptsd-page">
-      <section className="ptsd section">
-        <div className="container">
+      <section className="ptsd section"> 
+
+
+<div className="container">
           <div className="ptsd-singleColcontent">
             <div className="ptsd-text">
               <div className="ptsd-header">
@@ -175,31 +177,64 @@ function PtsdTraumaUnderstandingPage() {
                   </div>
                 </div>
 
-
-
               </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
               <div className="ptsd-cta">
                 <button className="btn-primary ptsd-button">
-                  Free pre-talk (20 min.) 
+                  Free pre-talk (20 min.)
                 </button>
               </div>
+
+            <section className="stats-section">
+              <div className="stats-grid">
+                <div className="stat-card" style={{ "--percent": 99 }}>
+                  <div className="stat-card-inner">
+                    <h2>99%</h2>
+                    <h3>Instant Relief</h3>
+                    <p>within the first session</p>
+                  </div>
+                </div>
+
+                <div className="stat-card" style={{ "--percent": 92 }}>
+                  <div className="stat-card-inner">
+                    <h2>92%</h2>
+                    <h3>Positive physical sensations</h3>
+                    <p>Feels often very unexpected &amp; new to clients</p>
+                  </div>
+                </div>
+
+                <div className="stat-card" style={{ "--percent": 100 }}>
+                  <div className="stat-card-inner">
+                    <h2>100%</h2>
+                    <h3>No re-traumatization / no intense abreactions</h3>
+                    <p>Profound changes in hypnosis even without words.</p>
+                  </div>
+                </div>
+
+                <div className="stat-card" style={{ "--percent": 100 }}>
+                  <div className="stat-card-inner">
+                    <h2>28%</h2>
+                    <h3>Unexpected spiritual experiences</h3>
+                    <p>No matter which religion, agnostic or atheist.</p>
+                  </div>
+                </div>
+
+                <div className="stat-card" style={{ "--percent": 100 }}>
+                  <div className="stat-card-inner">
+                    <h2>99%</h2>
+                    <h3>Session as a significant positive experience</h3>
+                    <p>No matter how long or intense the trauma had been inside you</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+        
+
             </div>
           </div>
         </div>
+
+
       </section>
     </main>
   );
