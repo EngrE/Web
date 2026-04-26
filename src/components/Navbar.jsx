@@ -105,7 +105,7 @@ const Navbar = () => {
 
                 <div className={`dropdown-menu ${openDropdown === 'ptsd-trauma' ? 'show' : ''}`}>
                   <Link to="/ptsd-trauma/understanding" className="dropdown-item">
-                    Understanding PTSD & Trauma
+                    Understanding PTSD & Trauma 
                   </Link>
                   <Link to="/ptsd-trauma/managing" className="dropdown-item">
                     Managing PTSD & Trauma
@@ -116,7 +116,7 @@ const Navbar = () => {
                   <Link to="/ptsd-trauma/overcoming" className="dropdown-item">
                     Overcoming PTSD & Trauma
                   </Link>
-                  <Link to="/ptsd-trauma/not-ready-yet" className="dropdown-item">
+                  <Link to="/ptsd-trauma/notready" className="dropdown-item">
                     Not ready for changes yet?
                   </Link>
                 </div>

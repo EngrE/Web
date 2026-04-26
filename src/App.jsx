@@ -9,6 +9,12 @@ import TestimonialsPage from './pages/TestimonialsPage'
 import ApplyPage from './pages/ApplyPage'
 import AuthPage from './pages/AuthPage'
 import './App.css'
+import PtsdTraumaDealingPage from "./pages/ptsd-trauma/PtsdTraumaDealingPage";
+import PtsdTraumaOvercomingPage from "./pages/ptsd-trauma/PtsdTraumaOvercomingPage";
+import PtsdTraumaUnderstandingPage from "./pages/ptsd-trauma/PtsdTraumaUnderstandingPage";
+import PtsdTraumaManagingPage from "./pages/ptsd-trauma/PtsdTraumaManagingPage";
+import PtsdTraumaNotReadyPage from "./pages/ptsd-trauma/PtsdTraumaNotReadyPage";
+
 
 function App() {
   return (
@@ -23,6 +29,11 @@ function App() {
           <Route path="/testimonials" element={<TestimonialsPage />} />
           <Route path="/auth" element={<AuthPage />} />
           <Route path="/apply" element={<ApplyPage />} />
+          <Route path="/ptsd-trauma/dealing" element={<PtsdTraumaDealingPage />}/>
+          <Route path="/ptsd-trauma/overcoming" element={<PtsdTraumaOvercomingPage />}/>
+          <Route path="/ptsd-trauma/understanding" element={<PtsdTraumaUnderstandingPage />}/>
+          <Route path="/ptsd-trauma/managing" element={<PtsdTraumaManagingPage />}/>
+          <Route path="/ptsd-trauma/notready" element={<PtsdTraumaNotReadyPage />}/>
         </Routes>
         <Footer />
       </div>
