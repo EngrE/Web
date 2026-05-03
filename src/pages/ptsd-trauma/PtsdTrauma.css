@@ -373,7 +373,7 @@
 }
 
 .stats-section {
-  padding: 80px 40px;
+  padding: 0px 0px 40px 0px;
   background: #f7fbfb00;
 }
 
@@ -387,22 +387,23 @@
 
 .stat-card {
   --fill: 0;
-  min-height: 270px;
+  /*min-height: 270px;*/
   padding: 2px;
+  border: none;
   border-radius: 22px;
   background:
     conic-gradient(
       from -90deg,
-      #0f766e calc(var(--fill) * 1%),
+      #14b8a6 calc(var(--fill) * 1%),
       rgba(255, 255, 255, 0.25) 0
     );
-  animation: fillBorder 1.8s ease-out forwards;
+  animation: fillBorder 10s ease-out forwards;
   
 }
 
 .stat-card-inner {
   height: 100%;
-  min-height: 270px;
+  /*min-height: 270px;*/
   padding: 18px 18px;
   border-radius: 18px;
   background: linear-gradient(180deg, #ffffff 0%, #ffffff 100%);
@@ -426,27 +427,34 @@
 
 .stat-card h2 {
   margin: 0 0 22px;
-  font-size: clamp(2.2rem, 3vw, 3rem);
+  font-size: clamp(2rem, 2.8vw, 3rem);
   line-height: 1;
   font-weight: 800;
-  color: #0f766e;
+  color: #14b8a6;
 }
 
 .stat-card h3 {
   margin: 0 0 10px;
-  font-size: 1.1rem;
+  color: var(--gray-600);
   line-height: 1.5;
+  font-size: 0.95rem;
   font-weight: 700;
-  color: #102a35;
 }
 
 .stat-card p {
   margin: 0;
-  font-size: 1rem;
-  line-height: 1.55;
-  color: #102a35;
+  font-size: 0.8rem;
+  line-height: 1;
+  color: var(--gray-600);
 }
 
+.buttons-grid{
+  padding: 10vh 10vw 10vh 10vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2vw;
+
+}
 
 
 /* Animations */
@@ -712,5 +720,108 @@
   .stat-card,
   .stat-card-inner {
     min-height: 230px;
+  }
+}
+
+.consultation-section {
+  position: relative;
+  padding: 60px 0;
+  background-color: #08596f;
+  background-image: url("https://ptsd-trauma.help/wp-content/uploads/2017/08/e22-2.png");
+  background-image: url("../../assets/images/pexels-pixabay-349758-scaled.jpg");
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: auto;
+  background-position: center 10%;
+  background-size: cover;
+}
+
+.consultation-container {
+  width: min(1200px, calc(100% - 40px));
+  margin: 0 auto;
+}
+
+.consultation-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 28px;
+  align-items: stretch;
+}
+
+.consultation-card {
+  grid-column: span 3;
+}
+
+/* first 2 cards */
+.consultation-card:nth-child(1),
+.consultation-card:nth-child(2),
+.consultation-card:nth-child(3) {
+  grid-column: span 2;
+}
+
+
+.consultation-card {
+  min-height: 100%;
+  padding: 28px 26px;
+  border-radius: 18px;
+  /*background: rgba(255, 255, 255, 0.08);*/
+  background: rgb(19 174 157 / 8%);
+  backdrop-filter: blur(4px);
+}
+
+.consultation-card-title {
+  margin: 0 0 18px;
+  font-size: 1.15rem;
+  line-height: 1.4;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.consultation-card-title a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.consultation-card-title a::before {
+  content: "| ";
+}
+
+.consultation-card-title a::after {
+  content: " |";
+}
+
+.consultation-card-title a:hover {
+  text-decoration: underline;
+}
+
+.consultation-card-content {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.consultation-card-content p {
+  margin: 0 0 14px;
+}
+
+.consultation-card-content p:last-child {
+  margin-bottom: 0;
+}
+
+.consultation-card-content em {
+  color: #ffffff;
+  font-style: italic;
+  font-weight: 500;
+}
+
+@media (max-width: 900px) {
+  .consultation-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .consultation-section {
+    padding: 60px 0;
+    background-attachment: scroll;
   }
 }

@@ -6,9 +6,7 @@ function PtsdTraumaUnderstandingPage() {
   return (
     <main className="ptsd-page">
       <section className="ptsd section"> 
-
-
-<div className="container">
+<         div className="container">
           <div className="ptsd-singleColcontent">
             <div className="ptsd-text">
               <div className="ptsd-header">
@@ -179,13 +177,12 @@ function PtsdTraumaUnderstandingPage() {
 
               </div>
 
-              <div className="ptsd-cta">
-                <button className="btn-primary ptsd-button">
-                  Free pre-talk (20 min.)
-                </button>
-              </div>
-
-            <section className="stats-section">
+        
+            </div>
+          </div>
+        </div>
+      </section>
+    <section className="stats-section">
               <div className="stats-grid">
                 <div className="stat-card" style={{ "--percent": 99 }}>
                   <div className="stat-card-inner">
@@ -211,7 +208,7 @@ function PtsdTraumaUnderstandingPage() {
                   </div>
                 </div>
 
-                <div className="stat-card" style={{ "--percent": 100 }}>
+                <div className="stat-card" style={{ "--percent": 28 }}>
                   <div className="stat-card-inner">
                     <h2>28%</h2>
                     <h3>Unexpected spiritual experiences</h3>
@@ -219,7 +216,7 @@ function PtsdTraumaUnderstandingPage() {
                   </div>
                 </div>
 
-                <div className="stat-card" style={{ "--percent": 100 }}>
+                <div className="stat-card" style={{ "--percent": 99 }}>
                   <div className="stat-card-inner">
                     <h2>99%</h2>
                     <h3>Session as a significant positive experience</h3>
@@ -227,15 +224,96 @@ function PtsdTraumaUnderstandingPage() {
                   </div>
                 </div>
               </div>
-            </section>
+
+          
+    </section>
+
+    <section className="consultation-section">
         
+    <div className="consultation-container">
+        <p className="ptsd-subtitle consultation-card-title">TAKE YOUR CHANCE - USE OUR RESSOURCES & POSSIIBILITIES! </p>
 
-            </div>
+      <div className="consultation-grid">
+      
+        <article className="consultation-card">
+          <h3 className="consultation-card-title">
+            <a href="#">Learn new ways in hypnosis and understanding your brain!</a>
+          </h3>
+
+          <div className="consultation-card-content">
+            <p>
+             Supraliminal hypnosis is treading new paths in hypnosis. 
+             A new understanding of hypnosis, different mind states, and neurocognitive intelligence led to new
+              - gentler - possibilities in dealing with trauma and overcoming PTSD.
+              Open up to all possibilities - even the seemingly impossible ones!
+            </p>
           </div>
-        </div>
+        </article>
+        <article className="consultation-card">
+          <h3 className="consultation-card-title">
+            <a href="#">A unique philosophy, shared by people around the world</a>
+          </h3>
+
+          <div className="consultation-card-content">
+            <p>
+             Choose your personal expert & program and start your individual healing journey. Welcome into your new life! 
+             ptsd-trauma.help offers a unique approach – our mission is giving global access to affordable, top level hypnosis & mind tools. Saisoned, experienced, and enthusiastic experts from all over the world found together in this unique network highly trained therapists, mind trainers, hypnotherpists, and practitioners. To support you on your way back into the life you want.
+            </p>
+          </div>
+        </article>
+        <article className="consultation-card">
+          <h3 className="consultation-card-title">
+            <a href="#">Free self help manual!</a>
+          </h3>
+
+          <div className="consultation-card-content">
+            <p>
+            Download our self help manual and start your transformational journey. Use self hypnosis and other mind tools as an efficient and effective solution for overcoming your symptoms. 
+            Finally achieve your objectives.
+            Want to know more? Inform yourself and start practicing your self help skills with our self help manual. Regardless if you are our client yet or not. 😉
+            </p>
+          </div>
+        </article>
+        <article className="consultation-card">
+          <h3 className="consultation-card-title">
+            <a href="#">Free self help audios</a>
+          </h3>
+
+          <div className="consultation-card-content">
+            <p>Bring  your self hypnosis abilities to the next level and expand your experiences with our free self help audios.
+             </p>
+          </div>
+        </article>
+        <article className="consultation-card">
+          <h3 className="consultation-card-title">
+            <a href="#">Packages & prices for every budget</a>
+          </h3>
+
+          <div className="consultation-card-content">
+            <p>We know that money is an issue for many of those affected. 
+              However, <em>we firmly believe that healing and health should not depend on wealth or poverty.</em> That is why we do everything we can to <em>ensure that people with limited financial resources can also find professional help</em> at ptsd-trauma.help and that we can still pay our rent.
+             </p>
+          </div>
+        </article>
+      </div>
+    </div>
 
 
-      </section>
+    </section>
+
+    <section>                  
+      
+       <div className="buttons-grid ">
+                <button className="btn-primary ptsd-button">
+                  Find our services
+                </button>
+                <button className="btn-primary ptsd-button">
+                  Find our resources
+                </button>
+                <button className="btn-primary ptsd-button">
+                  Free pre-talk (20 min.)
+                </button>
+              </div></section>
     </main>
   );
 }
