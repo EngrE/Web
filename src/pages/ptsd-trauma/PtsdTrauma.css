@@ -825,3 +825,249 @@
     background-attachment: scroll;
   }
 }
+
+
+/* ACCORDION SECTION START */
+/* PTSD ACCORDION FIX */
+
+.ptsd-page .accordion-container {
+  width: 100%;
+  max-width: 100%;
+  margin: 48px 0;
+  display: block;
+  box-sizing: border-box;
+}
+
+.ptsd-page .accordion-item {
+  width: 100%;
+  display: block;
+  background: var(--white);
+  border: 1.5px solid var(--gray-200);
+  border-radius: 12px;
+  margin-bottom: 14px;
+  overflow: hidden;
+  box-sizing: border-box;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.ptsd-page .accordion-item:hover {
+  border-color: var(--secondary-blue);
+  box-shadow: 0 14px 38px rgba(15, 118, 110, 0.12);
+  transform: translateY(-2px);
+}
+
+.ptsd-page .accordion-item.is-open {
+  border-color: var(--primary-blue);
+  box-shadow: 0 16px 42px rgba(15, 118, 110, 0.14);
+}
+
+.ptsd-page .accordion-trigger {
+  width: 100% !important;
+  min-width: 100%;
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+
+  padding: 20px 24px;
+  margin: 0;
+
+  background: var(--white) !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+
+  color: var(--gray-900);
+  text-align: left;
+  cursor: pointer;
+  box-shadow: none !important;
+  appearance: none;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+.ptsd-page .accordion-trigger:hover {
+  background: var(--gray-50) !important;
+}
+
+.ptsd-page .accordion-icon {
+  width: 50px;
+  height: 50px;
+  min-width: 36px;
+  border-radius: 10px;
+  background: var(--primary-blue);
+  color: var(--white);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 22px;
+  font-weight: 900;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.ptsd-page .accordion-icon.success {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.ptsd-page .accordion-icon.danger {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+.ptsd-page .accordion-icon.neutral {
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+}
+
+.ptsd-page .accordion-icon.purple {
+  background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+}
+
+.ptsd-page .accordion-icon.warning {
+  background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+}
+.ptsd-page .accordion-icon.greens {
+  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+}
+
+
+.ptsd-page .accordion-question {
+  flex: 1;
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--gray-900);
+  line-height: 1.3;
+
+}
+
+.ptsd-page .accordion-arrow {
+  color: var(--primary-blue);
+  font-size: 20px;
+  line-height: 1;
+  flex-shrink: 0;
+  transition: transform 0.25s ease;
+}
+
+.ptsd-page .accordion-item.is-open .accordion-arrow {
+  transform: rotate(180deg);
+}
+
+.ptsd-page .accordion-content {
+  width: 100%;
+  padding: 20px 24px 24px;
+  border-top: 1px solid var(--gray-200);
+  background: var(--white);
+  box-sizing: border-box;
+
+  font-size: 15px;
+  line-height: 1.8;
+  color: var(--gray-600);
+}
+
+.ptsd-page .accordion-content p {
+  margin: 0 0 14px;
+}
+
+.ptsd-page .accordion-content p:last-child {
+  margin-bottom: 0;
+}
+
+.ptsd-page .accordion-content strong {
+  color: var(--gray-900);
+  font-weight: 800;
+}
+
+.ptsd-page .accordion-content blockquote {
+  margin: 16px 0;
+  padding: 14px 20px;
+  border-left: 4px solid var(--primary-blue);
+  border-radius: 0 10px 10px 0;
+  background: var(--light-blue);
+  color: var(--gray-900);
+  font-size: 15px;
+  font-style: italic;
+  line-height: 1.7;
+}
+
+.ptsd-page .accordion-cta {
+  width: 100%;
+  margin-top: 24px;
+  padding: 28px 32px;
+  border-radius: 16px;
+  background: var(--light-blue);
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.ptsd-page .accordion-cta-title {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--gray-900);
+  margin-bottom: 4px;
+}
+
+.ptsd-page .accordion-cta-text {
+  font-size: 14px;
+  color: var(--gray-600);
+  line-height: 1.6;
+}
+
+.ptsd-page .accordion-cta-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 13px 30px;
+  border-radius: 999px;
+  border: 2px solid var(--primary-blue);
+  background: var(--primary-blue);
+  color: var(--white);
+
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: none;
+  appearance: none;
+  transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+
+.ptsd-page .accordion-cta-button:hover {
+  background: var(--accent-blue);
+  border-color: var(--accent-blue);
+  transform: translateY(-1px);
+}
+
+@media (max-width: 640px) {
+  .ptsd-page .accordion-container {
+    margin-top: 36px;
+  }
+
+  .ptsd-page .accordion-trigger {
+    padding: 18px 18px;
+    gap: 12px;
+  }
+
+  .ptsd-page .accordion-question {
+    font-size: 15px;
+  }
+
+  .ptsd-page .accordion-content {
+    padding: 18px 18px 22px;
+  }
+
+  .ptsd-page .accordion-cta {
+    padding: 24px 22px;
+  }
+
+  .ptsd-page .accordion-cta-button {
+    width: 100%;
+  }
+}
+
+/* ACCORDION SECTION ENDS */

@@ -119,6 +119,9 @@ const Navbar = () => {
                   <Link to="/ptsd-trauma/notready" className="dropdown-item">
                     Not ready for changes yet?
                   </Link>
+                  {/* <Link to="/ptsd-trauma/AIDesign" className="dropdown-item">
+                    AIDesign
+                  </Link> */}
                 </div>
               </div>
 

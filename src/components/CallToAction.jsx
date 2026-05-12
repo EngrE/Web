@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
 import './CallToAction.css';
-import { Phone, ClipboardClock,Scale } from 'lucide-react';
+import { Phone, ClipboardClock,LibraryBig } from 'lucide-react';
+import React from "react"
+import ReactCountryFlag from "react-country-flag"
 
 
 
@@ -25,21 +27,41 @@ const CallToAction = () => {
             <div className="cta-features">
               <div className="cta-feature">
                 <div className="cta-feature-icon">
-                  <ClipboardClock/>
+                   <ReactCountryFlag
+                countryCode="GB"
+                svg
+                style={{width: '2em', height: '2em',}}
+                title="UK"
+                />
                 </div>
-                <span>Book an online session</span>
+                {/* <span>English success stories</span> */}
+                <span>Be inspired through the success stories of our English speaking clients.s</span>
               </div>
               <div className="cta-feature">
                 <div className="cta-feature-icon">
-                 <Phone/>
+                <ReactCountryFlag
+                countryCode="ES"
+                svg
+                style={{width: '2em', height: '2em',}}
+                title="Spain"
+                />
                 </div>
-                <span>Free pre-talk (20 min.)</span>
+                {/* <span>Spanish success stories</span> */}
+                <span>Be inspired through the success stories of our Spanish speaking clients.</span>
               </div>
               <div className="cta-feature">
                 <div className="cta-feature-icon">
-                 <Scale/>
+                 <ReactCountryFlag
+                countryCode="DE"
+                svg
+                style={{width: '2em', height: '2em',}}
+                title="Germany"
+                />
                 </div>
-                <span>Therapeutic code of ethics</span>
+                {/* <span>German success stories</span> */}
+                
+
+                <span>Be inspired through the success stories of our German speaking clients.</span>
               </div>
             </div>
           </div>
@@ -53,7 +75,7 @@ const CallToAction = () => {
                 </svg>
               </Link>
               <Link to="/about" className="btn-secondary cta-secondary">
-                Learn More
+                Book an online session
               </Link>
             </div>
             

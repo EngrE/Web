@@ -14,6 +14,7 @@ import PtsdTraumaOvercomingPage from "./pages/ptsd-trauma/PtsdTraumaOvercomingPa
 import PtsdTraumaUnderstandingPage from "./pages/ptsd-trauma/PtsdTraumaUnderstandingPage";
 import PtsdTraumaManagingPage from "./pages/ptsd-trauma/PtsdTraumaManagingPage";
 import PtsdTraumaNotReadyPage from "./pages/ptsd-trauma/PtsdTraumaNotReadyPage";
+import AIDesign from "./pages/ptsd-trauma/AIDesign";
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
           <Route path="/ptsd-trauma/understanding" element={<PtsdTraumaUnderstandingPage />}/>
           <Route path="/ptsd-trauma/managing" element={<PtsdTraumaManagingPage />}/>
           <Route path="/ptsd-trauma/notready" element={<PtsdTraumaNotReadyPage />}/>
+          <Route path="/ptsd-trauma/AIDesign" element={<AIDesign />}/>
         </Routes>
         <Footer />
       </div>
