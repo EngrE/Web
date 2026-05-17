@@ -181,6 +181,8 @@
   color: var(--white);
 }
 
+.modal-circle-card.success:hover h3,
+.modal-circle-card.success:hover p,
 .modal-circle-card.light:hover h3,
 .modal-circle-card.light:hover p {
   color: var(--gray-900);
