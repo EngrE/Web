@@ -46,9 +46,6 @@ const Features = ({
         </div>
 
         <div className="features-cta text-center">
-          <p className="features-cta-text">
-            PTSD & trauma: how to deal with it
-          </p>
           <button className="btn-primary features-button">
             Understand yourself
             <svg className="button-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
