@@ -1,0 +1,276 @@
+
+.flip-circle-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 26px;
+}
+
+.flip-circle-card {
+  perspective: 1000px;
+  padding: 0;
+}
+
+.flip-circle-inner {
+  width: 100%;
+  min-height: 430px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.6s ease;
+}
+
+.flip-circle-card.is-flipped .flip-circle-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-circle-face {
+  position: absolute;
+  inset: 0;
+  padding: 34px 24px 30px;
+  border-radius: 28px;
+  backface-visibility: hidden;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flip-circle-front {
+  transform: rotateY(0deg);
+}
+
+.flip-circle-back {
+  transform: rotateY(180deg);
+}
+
+.flip-circle-read-more {
+  margin-top: auto;
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.flip-circle-card {
+  width: 100%;
+  min-height: 430px;
+  padding: 34px 24px 30px;
+  border: 1.5px solid var(--gray-200);
+  border-radius: 28px;
+  background: var(--white);
+  color: var(--gray-900);
+  text-align: center;
+  cursor: pointer;
+  font-family: inherit;
+  box-sizing: border-box;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease,
+    background 0.25s ease;
+}
+
+.flip-circle-card:hover {
+  transform: translateY(-8px);
+  border-color: transparent;
+  box-shadow: 0 24px 60px rgba(15, 118, 110, 0.18);
+}
+
+.flip-circle-card.purple:hover {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.flip-circle-card.danger:hover {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+.flip-circle-card.neutral:hover {
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+}
+
+.flip-circle-card.success:hover {
+  background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+}
+
+.flip-circle-card.warning:hover {
+  background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+}
+
+.flip-circle-card.light:hover {
+  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+}
+
+/* CARD ICON */
+
+.flip-circle-icon {
+  width: 82px;
+  height: 82px;
+  min-width: 82px;
+  min-height: 82px;
+  margin: 0 auto 22px;
+  border-radius: 50%;
+  background: var(--light-blue);
+  color: var(--primary-blue);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition:
+    background 0.25s ease,
+    color 0.25s ease,
+    transform 0.25s ease;
+}
+
+.flip-circle-icon.purple {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: var(--white);
+}
+
+.flip-circle-icon.danger {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  color: var(--white);
+}
+
+.flip-circle-icon.neutral {
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  color: var(--white);
+}
+
+.flip-circle-icon.success {
+  background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+  color: var(--white);
+}
+
+.flip-circle-icon.warning {
+  background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+  color: var(--white);
+}
+
+.flip-circle-icon.light {
+  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+  color: var(--white);
+}
+
+.flip-circle-icon svg {
+  width: 34px;
+  height: 34px;
+  stroke-width: 2.2;
+}
+
+.flip-circle-card:hover .flip-circle-icon {
+
+  transform: scale(1.06);
+  background: rgba(255, 255, 255, 0.45);
+  color: var(--gray-900);
+}
+.flip-circle-section {
+  width: 100%;
+}
+
+.flip-circle-section-header {
+  max-width: 760px;
+  margin: 0 auto 48px;
+  text-align: center;
+  padding: 40px 0px 0px 0px;
+}
+
+.flip-circle-section-header h2 {
+  margin: 0 0 14px;
+  color: var(--gray-900);
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.flip-circle-section-header p {
+  margin: 0;
+  color: var(--gray-600);
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.flip-circle-card {
+  perspective: 1000px;
+  padding: 0;
+}
+
+.flip-circle-inner {
+  width: 100%;
+  min-height: 430px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.6s ease;
+}
+
+.flip-circle-card.is-flipped .flip-circle-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-circle-face {
+  position: absolute;
+  inset: 0;
+  padding: 34px 24px 30px;
+  border-radius: 28px;
+  backface-visibility: hidden;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flip-circle-front {
+  transform: rotateY(0deg);
+}
+
+.flip-circle-back {
+  transform: rotateY(180deg);
+}
+
+.flip-circle-read-more {
+  margin-top: auto;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+
+/* CARD TEXT */
+
+.flip-circle-card h3 {
+  width: 100%;
+  margin: 0 0 14px;
+  color: var(--gray-900);
+  font-size: 1.3rem;
+  font-weight: 900;
+  line-height: 1.3;
+  transition: color 0.25s ease;
+}
+
+.flip-circle-card p {
+  width: 100%;
+  margin: 0 0 24px;
+  color: var(--gray-600);
+  font-size: 1rem;
+  line-height: 1.75;
+  transition: color 0.25s ease;
+}
+
+.flip-circle-card:hover h3,
+.flip-circle-card:hover p {
+  color: var(--white);
+}
+
+.flip-circle-card.success:hover h3,
+.flip-circle-card.success:hover p,
+.flip-circle-card.light:hover h3,
+.flip-circle-card.light:hover p {
+  color: var(--gray-900);
+}
+
+/* READ MORE */

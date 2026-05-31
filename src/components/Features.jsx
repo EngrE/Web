@@ -16,9 +16,11 @@ const Features = ({
           <h2 className="features-title">
             {title} <span className="gradient-text">{gradientTitle}</span>
           </h2>
+        {subtitle && (
           <p className="features-subtitle">
-            (C-)PTSD & trauma recovery program with no need to talk. A gentle way back into life.
-          </p>A unique approach to healing.
+            {subtitle}
+          </p>
+        )}
         </div>
 
         <div className="features-grid">

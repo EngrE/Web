@@ -385,7 +385,7 @@ function PtsdTraumaDealingPage() {
               <div className="ptsd-header">
                 <h2 className="ptsd-title">
                   TAKE YOUR
-                  <span className="gradient-text">CHANCE</span>
+                  <span className="gradient-text"> CHANCE</span>
                 </h2>
 
                 <p className="ptsd-subtitle">

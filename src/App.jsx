@@ -15,6 +15,9 @@ import PtsdTraumaUnderstandingPage from "./pages/ptsd-trauma/PtsdTraumaUnderstan
 import PtsdTraumaManagingPage from "./pages/ptsd-trauma/PtsdTraumaManagingPage";
 import PtsdTraumaNotReadyPage from "./pages/ptsd-trauma/PtsdTraumaNotReadyPage";
 import AIDesign from "./pages/ptsd-trauma/AIDesign";
+import Sessions from "./pages/services/Sessions";
+import ActivitiesPage from "./pages/services/Activities";
+import Programs from "./pages/services/TraumaPrograms";
 
 
 function App() {
@@ -36,6 +39,9 @@ function App() {
           <Route path="/ptsd-trauma/managing" element={<PtsdTraumaManagingPage />}/>
           <Route path="/ptsd-trauma/notready" element={<PtsdTraumaNotReadyPage />}/>
           <Route path="/ptsd-trauma/AIDesign" element={<AIDesign />}/>
+          <Route path="/services/Sessions" element={<Sessions />}/>
+          <Route path="/services/Activities" element={<ActivitiesPage />}/>
+          <Route path="/services/TraumaPrograms" element={<Programs />}/>
         </Routes>
         <Footer />
       </div>

@@ -26,8 +26,10 @@ function PtsdTraumaOvercomingPage() {
             <Features
               title="What issue do you have to deal with, and what is it that you want to heal from?"
               gradientTitle="trauma or PTSD?"
-              subtitle=" xxxxx "
+              subtitle="(C-)PTSD & trauma recovery program with no need to talk. A gentle way back into life."
+
               buttonText="Book a Free Pre-Talk"
+
               features={[
                       {
                         icon: <Heart />,

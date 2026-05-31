@@ -1,0 +1,123 @@
+.stats-template-section {
+  position: relative;
+  overflow: hidden;
+  padding: 80px 0 95px;
+  background-color: #08596f;
+  background-image:
+    linear-gradient(
+      135deg,
+      rgba(8, 89, 111, 0.1),
+      rgba(19, 174, 157, 0.38)
+    ),
+    var(--stats-bg-image);
+  background-position: center 10%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  isolation: isolate;
+}
+
+.stats-template-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(8, 89, 111, 0.15);
+  z-index: 0;
+}
+
+
+
+.stats-template-container {
+  position: relative;
+  z-index: 2;
+  width: min(1280px, calc(100% - 40px));
+  margin: 0 auto;
+}
+
+.stats-template-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(130px, 1fr));
+  column-gap: 54px;
+  row-gap: 92px;
+  align-items: center;
+}
+
+.stats-template-card {
+  min-height: 180px;
+  padding: 18px 14px;
+  text-align: center;
+  border-radius: 18px;
+  transition:
+    transform 0.3s ease,
+    background 0.3s ease,
+    box-shadow 0.3s ease,
+    backdrop-filter 0.3s ease;
+}
+
+.stats-template-card:hover {
+  transform: translateY(-8px);
+  background: rgb(19 174 157 / 14%);
+  backdrop-filter: blur(4px);
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.16);
+}
+
+.stats-template-number {
+  margin: 0 0 26px;
+  font-size: clamp(1rem,3vw, 3rem);
+  line-height: 1;
+  font-weight: 300;
+  color: #ffffff;
+  transition: transform 0.3s ease;
+}
+
+.stats-template-card:hover .stats-template-number {
+  transform: scale(1.06);
+}
+
+.stats-template-label {
+  margin: 0;
+  font-size: clamp(1rem, 1.6vw, 1.75rem);
+  line-height: 1.4;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.95);
+  white-space: pre-line;
+}
+
+@media (max-width: 1050px) {
+  .stats-template-grid {
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 55px;
+  }
+
+
+}
+
+@media (max-width: 700px) {
+  .stats-template-section {
+    padding: 60px 0;
+    background-attachment: scroll;
+  }
+
+  .stats-template-grid {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 18px;
+    row-gap: 28px;
+  }
+
+  .stats-template-card {
+    min-height: 145px;
+    padding: 16px 10px;
+  }
+
+
+  .stats-template-number {
+    margin-bottom: 16px;
+  }
+}
+
+@media (max-width: 420px) {
+  .stats-template-grid {
+    grid-template-columns: 1fr;
+  }
+}
